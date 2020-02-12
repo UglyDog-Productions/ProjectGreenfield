@@ -1,119 +1,105 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
-.Modal {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  right: auto;
-  bottom: auto;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  background-color: #e9e9e9;
-  // background: #8a2387;
-  // background: linear-gradient(to right, #f27121, #e94057, #8a2387);
-  width: 600px;
-  max-width: 100%;
-  height: 400px;
-  max-height: 100%;
-  padding: 10px;
-  color: green;
-}
+// // .Modal {
+// //   position: fixed;
+// //   top: 50%;
+// //   left: 50%;
+// //   right: auto;
+// //   bottom: auto;
+// //   margin-right: -50%;
+// //   transform: translate(-50%, -50%);
+// //   background-color: #e9e9e9;
+// //   // background: #8a2387;
+// //   // background: linear-gradient(to right, #f27121, #e94057, #8a2387);
+// //   width: 40vw;
+// //   max-width: 100%;
+// //   height: 40vh;
+// //   max-height: 100%;
+// //   padding: 10px;
+// //   color: green;
+// // }
 
-.Overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
-}
+// .Overlay {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   background: rgba(0, 0, 0, 0.6);
+// }
 
-textarea:focus {
-  outline-color: rgb(44, 159, 197);
-  outline-width: medium;
-  outline-style: groove;
-}
+// textarea:focus {
+//   outline-color: rgb(44, 159, 197);
+//   outline-width: medium;
+//   outline-style: groove;
+// }
 
-.answerModalHeading {
-  margin-left: 225px;
-}
+// .answerModalHeading {
+//   margin-left: 225px;
+// }
 
-.disclaimer {
-  font-size: 10px;
-  color: grey;
-  opacity: 90%;
-}
+// .disclaimer {
+//   font-size: 10px;
+//   color: grey;
+//   opacity: 90%;
+// }
 
-.submitModalButton {
-  position: absolute;
-  top: 95%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 1rem;
-  font-family: 'Josefin Sans', sans-serif;
-  border-radius: 0.5rem;
-  outline: none;
-  overflow: hidden;
-  width: 4.5rem;
-  height: 1.5rem;
-}
+// .closeModalButton {
+//   margin: 5px;
+//   padding: 5px;
+//   position: absolute;
+//   top: 2.4%;
+//   left: 3.4%;
+//   text-align: center;
+//   cursor: pointer;
+//   border-radius: 1.5rem;
+//   background: none;
+//   border: 0;
+//   box-sizing: border-box;
+//   color: transparent;
+//   background-color: orange;
+//   cursor: pointer;
+//   font-family: 'Josefin Sans', sans-serif;
+//   font-size: 10px;
+//   line-height: auto;
+//   outline: none;
+//   overflow: hidden;
+//   text-transform: uppercase;
+//   transform: translate(-50%, -50%);
+//   transition: all 0.2s ease-in;
+//   width: auto;
+// }
 
-.closeModalButton {
-  margin: 5px;
-  padding: 5px;
-  position: absolute;
-  top: 2.4%;
-  left: 3.4%;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 1.5rem;
-  background: none;
-  border: 0;
-  box-sizing: border-box;
-  color: transparent;
-  background-color: orange;
-  cursor: pointer;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 10px;
-  line-height: auto;
-  outline: none;
-  overflow: hidden;
-  text-transform: uppercase;
-  transform: translate(-50%, -50%);
-  transition: all 0.2s ease-in;
-  width: auto;
-}
+// .closeModalButton::before,
+// .closeModalButton::after {
+//   background-color: white;
+//   content: '';
+//   display: block;
+//   height: 1px;
+//   left: 0;
+//   position: absolute;
+//   transform-origin: center left;
+//   transition: all 0.2s ease-in;
+//   width: 141.4214px;
+//   z-index: -1;
+// }
 
-.closeModalButton::before,
-.closeModalButton::after {
-  background-color: white;
-  content: '';
-  display: block;
-  height: 1px;
-  left: 0;
-  position: absolute;
-  transform-origin: center left;
-  transition: all 0.2s ease-in;
-  width: 141.4214px;
-  z-index: -1;
-}
+// .closeModalButton::before {
+//   top: 0;
+//   transform: rotate(45deg);
+// }
 
-.closeModalButton::before {
-  top: 0;
-  transform: rotate(45deg);
-}
+// .closeModalButton::after {
+//   bottom: 0;
+//   transform: rotate(-45deg);
+// }
 
-.closeModalButton::after {
-  bottom: 0;
-  transform: rotate(-45deg);
-}
+// .closeModalButton:hover {
+//   color: #8a2387;
+// }
 
-.closeModalButton:hover {
-  color: #8a2387;
-}
-
-.closeModalButton:hover::before,
-.closeModalButton:hover::after {
-  height: 50px;
-  transform: rotate(0deg);
-}
+// .closeModalButton:hover::before,
+// .closeModalButton:hover::after {
+//   height: 50px;
+//   transform: rotate(0deg);
+// }

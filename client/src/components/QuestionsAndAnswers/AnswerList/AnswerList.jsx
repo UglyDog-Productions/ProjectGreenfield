@@ -37,9 +37,9 @@ export default class AnswerList extends Component {
   render() {
     const { answers, showing, status } = this.state;
     const custom = {
-      fontSize: 'x-small',
+      fontSize: 'small',
       // top-right-bottom-left
-      margin: '2% 0 1% 1%',
+      margin: '1% 0 1% 1%',
     };
     if (answers.length === 0) {
       return (
@@ -61,7 +61,7 @@ export default class AnswerList extends Component {
             </div>
           ))}
           <button
-            className="questionButton"
+            className="expandList"
             style={custom}
             type="button"
             onClick={() => {

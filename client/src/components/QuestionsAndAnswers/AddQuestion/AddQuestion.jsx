@@ -70,17 +70,21 @@ export default class AddQuestion extends Component {
   };
 
   render() {
-    const { modalIsOpen, value, name, email } = this.state;
+    const { modalIsOpen, value, name, email, heading } = this.state;
     const { productDetails } = this.props;
+    const custom = {
+      marginLeft: `24vw`,
+      marginRight: `25vw`,
+    };
 
     return (
       <span>
         <button
           type="button"
-          className="questionButton"
+          className="expandList"
           onClick={() => this.openModal()}
         >
-          ADD A QUESTION +
+          ADD A QUESTION+
         </button>
         <div>
           <ReactModal
@@ -102,12 +106,13 @@ export default class AddQuestion extends Component {
               </button>
             </div>
             <div>
-              <h4 className="questionModalHeading">Ask your Question</h4>
-              <span>{`About the ${productDetails.name}`}</span>
-              <div className="addAnswerForm">
+              <h2 className="modalHeading">Ask your Question</h2>
+              <h4 className="modalHeading">{`Regarding ${productDetails.name}`}</h4>
+              <div className="myForm">
                 <label>*Your Question</label>
                 <br />
                 <textarea
+                  className="formBox"
                   placeholder="Why did you like the product or not?"
                   rows="5"
                   cols="50"

@@ -44,12 +44,12 @@
 }
 
 #reviewAvg {
-  font-size: 16px;
+  font-size: 1vw;
   margin-left: 100%;
 }
 
 .avgReview {
-  font-size: 36px;
+  font-size: 2.25vw;
 }
 
 .sidePercentRec {
@@ -94,25 +94,30 @@
 }
 
 .reviewList {
+  margin-top: 1%;
+  margin-bottom: 1.5%;
   display: block;
-  overflow: scroll;
-  max-height: 350px;
+  max-height: 60vh;
+  width: 100%;
+  overflow: auto;
+  scroll-behavior: smooth;
+  border: 0.01vw ridge #40c6ff45;
 }
 
 .reviewSort {
-  font-size: 16px;
+  font-size: 1.25vw;
 }
 
 .reviewFilters {
   margin-bottom: 3%;
   margin-left: 1%;
-  padding: 0.25em;
+  padding: 0.25vw;
   border: 0;
-  border-bottom: 2px solid black;
+  border-bottom: 0.125vw solid black;
   font-weight: bold;
   border-radius: 0;
   background-color: transparent;
-  font-size: 16px;
+  font-size: 1vw;
   cursor: pointer;
   &:hover {
     background-color: orange;
@@ -135,19 +140,20 @@
 .reviewerName {
   grid-column: 7;
   grid-row: 1;
-  font-size: 14px;
+  font-size: 1vw;
   align-self: center;
 }
 
 .reviewDate {
   grid-column: 8;
   grid-row: 1;
-  font-size: 14px;
+  font-size: 1vw;
   align-self: center;
 }
 
 .reviewSummary {
   font-weight: bold;
+  font-size: 1.5vw;
   word-break: break-all;
 }
 
@@ -156,7 +162,7 @@
 }
 
 .recAnswer {
-  margin-left: 5px;
+  margin-left: 0.06vw;
 }
 
 .thumbnailTile {
@@ -233,13 +239,13 @@ img {
 }
 
 .yesHelp {
-  font-size: 16px;
+  font-size: 1vw;
   background-color: transparent;
   border: none;
   cursor: pointer;
   text-decoration: underline;
   display: inline;
-  margin-left: 10px;
+  margin-left: 0.625vw;
   align-self: center;
   padding: 0;
 }
@@ -250,17 +256,17 @@ img {
 }
 
 .helpfulnessRating {
-  font-size: x-small;
+  font-size: small;
 }
 
 .reportTile {
-  margin-left: 25px;
+  margin-left: 1vw;
   margin-bottom: 2%;
   // align-self: center;
 }
 
 .reviewReport {
-  font-size: 16px;
+  font-size: 1vw;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -276,7 +282,7 @@ img {
 
 .tileLineBreak {
   border: 1px solid black;
-  margin-top: 10px;
+  margin-top: 0.625vw;
 }
 
 .moreReviews {
@@ -337,52 +343,6 @@ img {
   font-size: 14px;
   padding: 10px 24px;
 }
-
-// .addReview {
-//   margin: 0 3% 5% 0;
-//   font-size: x-large;
-//   position: relative;
-//   background: #0070ff;
-//   color: #ffa500;
-//   text-transform: uppercase;
-//   text-decoration: none;
-//   border: 0.2em solid #ffa500;
-//   padding: 0.5em 1em;
-//   &::before {
-//     content: '';
-//     display: block;
-//     position: absolute;
-//     width: 10%;
-//     background: #40c6ff;
-//     height: 0.3em;
-//     right: 20%;
-//     top: -0.21em;
-//     transform: skewX(-45deg);
-//     -webkit-transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
-//     transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
-//   }
-//   &::after {
-//     content: '';
-//     display: block;
-//     position: absolute;
-//     width: 10%;
-//     background: #40c6ff;
-//     height: 0.3em;
-//     left: 20%;
-//     bottom: -0.25em;
-//     transform: skewX(45deg);
-//     -webkit-transition: all 0.45 cubic-bezier(0.86, 0, 0.07, 1);
-//     transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
-//   }
-//   &:hover {
-//     &::before {
-//       right: 80%;
-//     }
-//     &::after {
-//       left: 80%;
-//     }
-//   }
-// }
 
 .newReviewModal {
   position: absolute;

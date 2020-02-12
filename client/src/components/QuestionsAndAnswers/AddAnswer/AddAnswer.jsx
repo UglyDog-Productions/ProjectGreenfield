@@ -91,6 +91,10 @@ export default class AddAnswer extends Component {
   render() {
     const { modalIsOpen, value, email, name, photo, photos } = this.state;
     const { productDetails, question } = this.props;
+    const custom = {
+      marginLeft: `24vw`,
+      marginRight: `25vw`,
+    };
 
     return (
       <span>
@@ -120,16 +124,17 @@ export default class AddAnswer extends Component {
               </button>
             </div>
             <div>
-              <h4 className="answerModalHeading">Submit your Answer</h4>
-              <span>{`Product: ${productDetails.name}`}</span>
-              <span>
-                <p>{question.question_body}</p>
-              </span>
-              <div className="addAnswerForm">
+              <h2 className="modalHeading">Submit your Answer</h2>
+              <div className="myForm">
+                <span>{`Product: ${productDetails.name}`}</span>
+                <span>
+                  <p>{question.question_body}</p>
+                </span>
                 {/* <form className="addAnswerForm" onSubmit={this.handleSubmit} > */}
                 <label>*Your Answer</label>
                 <br />
                 <textarea
+                  className="formBox"
                   placeholder="Please add your Answer..."
                   rows="5"
                   cols="50"
@@ -187,7 +192,7 @@ export default class AddAnswer extends Component {
                     onChange={this.handlePhotoChange}
                   />
                   <button type="button" onClick={this.addPhoto}>
-                    {`Click to add a photo (${photos.length})`}
+                    {`Add Photo (${photos.length})`}
                   </button>
                 </label>
                 <br />
@@ -198,12 +203,6 @@ export default class AddAnswer extends Component {
                 >
                   Submit
                 </button>
-                {/* <input
-                  className="submitModalButton"
-                  type="submit"
-                  value="Submit"
-                /> */}
-                {/* </form> */}
               </div>
             </div>
           </ReactModal>

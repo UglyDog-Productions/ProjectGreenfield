@@ -1,14 +1,10 @@
-.addQuestionButton {
-  margin: 20px 50px 20px 0;
-  font-size: 16px;
-  height: 65px;
-  width: 250px;
-  border-radius: 10px;
-  border: solid;
-  box-shadow: 1px 1px 0px 2px rgba (0, 0, 0, 0.3);
-  background: beige;
-  cursor: pointer;
-}
+$background-grey: #e9e9e9;
+$primary-orange: #ffa500;
+$primary-blue: #40c6ff;
+$primary-teal: #14c6cc;
+$dark-blue: #004fb3;
+$solid-blue: #0070ff;
+$secondary-orange: #ffaf19;
 
 .Modal {
   position: fixed;
@@ -18,12 +14,12 @@
   bottom: auto;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  background-color: whitesmoke;
-  width: 600px;
+  background-color: #e9e9e9;
+  width: 60vw;
   max-width: 100%;
-  height: 400px;
+  height: 60vh;
   max-height: 100%;
-  padding: 10px;
+  padding: 2%;
 }
 
 .Overlay {
@@ -35,53 +31,93 @@
   background: rgba(0, 0, 0, 0.6);
 }
 
+input {
+  font-size: large;
+  margin: 1vh;
+}
+
+label {
+  font-size: 1.5vw;
+}
+
+// button {
+//   font-size: 1.5vw;
+//   font-family: 'Josefin Sans', sans-serif;
+// }
+
 textarea:focus {
   outline-color: lightblue;
   outline-width: medium;
   outline-style: groove;
 }
 
-.questionModalHeading {
-  margin-left: 225px;
+.modalHeading {
+  margin-left: 24vw;
+}
+
+.formBox {
+  height: 10vh;
+  width: 30vw;
+  font-size: 1.5vw;
+}
+
+.myForm {
+  margin-left: 5vw;
+  margin-top: 5vh;
 }
 
 .disclaimer {
-  font-size: 10px;
-  color: grey;
+  font-size: 1.25vw;
+  color: #ffa500;
   opacity: 90%;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
 .closeModalButton {
-  margin: 5px;
-  padding: 5px;
+  margin: 0.5%;
+  padding: 0.5%;
   position: absolute;
-  top: 2.4%;
-  left: 3.4%;
+  top: 3.3vh;
+  right: -2vw;
   text-align: center;
+  width: 4vw;
+  height: 6vh;
   cursor: pointer;
-  border-radius: 1.5rem;
+  border-radius: 0em;
   background: none;
-  border: 0;
+  border-color: #ffa500;
   box-sizing: border-box;
   color: transparent;
-  background-color: #ff0051;
+  background-color: #004fb3;
   cursor: pointer;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 10px;
+  font-size: 5%;
   line-height: auto;
   outline: none;
   overflow: hidden;
   text-transform: uppercase;
   transform: translate(-50%, -50%);
   transition: all 0.2s ease-in;
-  width: auto;
+}
+
+.submitModalButton {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 0.5rem;
+  outline: none;
+  overflow: hidden;
+  width: 4.5rem;
+  height: 1.5rem;
 }
 
 .closeModalButton::before,
 .closeModalButton::after {
-  background-color: white;
+  background-color: #ffa500;
   content: '';
   display: block;
   height: 1px;

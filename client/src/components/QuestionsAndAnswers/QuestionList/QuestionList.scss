@@ -2,17 +2,23 @@ $background-grey: #e9e9e9;
 $primary-orange: #ffa500;
 $primary-blue: #40c6ff;
 $primary-teal: #14c6cc;
+$dark-blue: #004fb3;
+$solid-blue: #0070ff;
+$secondary-orage: #ffaf19;
 
 .searchQuestions {
   height: 100%;
 }
 
 .questionList {
+  margin-top: 1%;
+  margin-bottom: 1.5%;
   display: block;
-  height: 100%;
-  //width: 100%;
-  overflow: scroll;
+  max-height: 60vh;
   width: 100%;
+  overflow: auto;
+  scroll-behavior: smooth;
+  border: 0.01vw ridge #40c6ff45;
 }
 
 .questionListQuestion {
@@ -21,11 +27,13 @@ $primary-teal: #14c6cc;
 
 #searchBar {
   font-size: x-large;
-  margin: 2% 0.5% 1% 1%;
+  margin: 2% 0.5% 1% 0;
   padding: 1%;
   border-color: $primary-teal;
   border-style: inset;
   border-width: medium;
+  background-color: #0070ff0a;
+  width: calc(100vw - 17vw);
 }
 
 input:focus {

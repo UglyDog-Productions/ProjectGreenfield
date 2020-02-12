@@ -50,10 +50,11 @@ export default class Question extends Component {
   render() {
     const { question, qId, productDetails } = this.props;
     const { helpfulness } = this.state;
+    const custom = { marginBottom: '1%' };
 
     return (
       <span className="question">
-        <span>{`Q: ${question.question_body}`}</span>
+        <div style={custom}>{`Q: ${question.question_body}`}</div>
         <span className="helpfulQ">
           {`Helpful? `}
           <span>

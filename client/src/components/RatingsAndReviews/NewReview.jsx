@@ -141,7 +141,7 @@ class NewReview extends React.Component {
       <span>
         <button
           type="button"
-          className="addReview"
+          className="expandList"
           onClick={() => this.openModal()}
         >
           NEW REVIEW+

@@ -8,6 +8,14 @@ $secondary-orage: #ffaf19;
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
+#questionsAndAnswersBox {
+  display: block;
+  margin-right: 8%;
+  max-height: 100vh;
+  width: calc(100vw - 17vw);
+  overflow: hidden;
+}
+
 .link-button {
   background-color: transparent;
   border: none;
@@ -25,20 +33,48 @@ $secondary-orage: #ffaf19;
 
 .questionsAndAnswersHeading {
   color: $primary-orange;
+  font-size: black;
   font-size: large;
   font-weight: 500;
 }
 
-.questionButton {
-  margin: 0 3% 5% 0;
-  font-size: x-large;
+//------------
+.moreReviews {
+  border-radius: 0.125vw;
+  font-size: 1.25vw; // responsive: 1vw is 16px on standard 15inch screen
+  padding: 0.625vw 1.5vw;
+  margin-right: 0.94vw;
+}
+.dropbtn {
+  color: black;
+  padding: 1.25vw;
+  font-size: 1vw; // responsive: 1vw is 16px on standard 15inch screen
+  border: 0.06vw solid black;
+  cursor: pointer;
+  margin: 1.25vw;
+  text-transform: uppercase;
+  border-radius: 0.125vw;
+}
+
+button {
+  border-radius: 0.125vw;
+  font-size: 1vw;
+  padding: 0.625vw 1.5vw;
+  font-family: 'Josefin Sans', sans-serif;
+}
+//-----------
+.expandList {
+  margin-right: 0.94vw;
+  font-size: 1vw;
+  // word-spacing: 0.1vw;
+  // letter-spacing: 0.1vw;
   position: relative;
   background: #0070ff;
-  color: #ffa500;
+  color: #f9f9f9;
   text-transform: uppercase;
   text-decoration: none;
-  border: 0.2em solid #ffa500;
-  padding: 0.5em 1em;
+  border: 0.1em solid #ffa500;
+  padding: 0.625vw 1.5vw;
   &::before {
     content: '';
     display: block;

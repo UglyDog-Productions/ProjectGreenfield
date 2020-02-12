@@ -1,23 +1,24 @@
 .question {
-  font-size: x-large;
+  font-size: 1.5vw;
+  font-weight: bold;
   color: black;
 }
 
 .helpfulQ {
-  font-size: 12px;
+  font-size: 1vw;
   color: grey;
   float: right;
 }
 
 .questionLinkButton {
-  font-size: 12px;
+  font-size: 1vw;
   color: grey;
   background-color: transparent;
   border: none;
   cursor: pointer;
   text-decoration: underline;
   display: inline;
-  margin: 5px 1px 5px 0;
+  margin: 0.625vw 0.06vw 0.625vw 0;
   padding: 0;
 }
 
@@ -27,5 +28,5 @@
 }
 
 .count {
-  margin: 2px;
+  margin: 0.25vw;
 }

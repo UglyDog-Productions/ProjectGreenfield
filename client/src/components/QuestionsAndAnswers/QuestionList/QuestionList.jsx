@@ -75,27 +75,62 @@ export default class QuestionList extends Component {
     if (allQuestions.length === 0) {
       return (
         <div>
-          <br />
-          {`No Questions Have Been Asked About ${productDetails.name}`}
-          <br />
-          <AddQuestion productDetails={productDetails} />
+          <div className="questionList">
+            <br />
+            {`No Questions Have Been Asked About ${productDetails.name}`}
+            <br />
+            <AddQuestion productDetails={productDetails} />
+          </div>
         </div>
       );
     }
     if (showing >= allQuestions.length) {
       return (
-        <div className="questionList">
+        <div>
           <div className="searchQuestions">
             <input
               id="searchBar"
               type="search"
               placeholder="HAVE A QUESTION? SEARCH FOR THE ANSWERS..."
-              size="100"
               maxLength="20"
               value={search}
               onChange={this.handleChange}
             />
           </div>
+          <div className="questionList">
+            <div>
+              {renderQuestions.slice(0, showing).map((q) => (
+                <div key={q.question_id} className="questionListQuestion">
+                  <Question
+                    question={q}
+                    qId={q.question_id}
+                    productDetails={productDetails}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+          <div>
+            <span>
+              <AddQuestion productDetails={productDetails} />
+            </span>
+          </div>
+        </div>
+      );
+    }
+    return (
+      <div>
+        <div className="searchQuestions">
+          <input
+            id="searchBar"
+            type="search"
+            placeholder="HAVE A QUESTION? SEARCH FOR THE ANSWERS..."
+            maxLength="20"
+            value={search}
+            onChange={this.handleChange}
+          />
+        </div>
+        <div className="questionList">
           <div>
             {renderQuestions.slice(0, showing).map((q) => (
               <div key={q.question_id} className="questionListQuestion">
@@ -107,42 +142,11 @@ export default class QuestionList extends Component {
               </div>
             ))}
           </div>
-          <div>
-            <span>
-              <AddQuestion productDetails={productDetails} />
-            </span>
-          </div>
-        </div>
-      );
-    }
-    return (
-      <div className="questionList">
-        <div className="searchQuestions">
-          <input
-            id="searchBar"
-            type="search"
-            placeholder="HAVE A QUESTION? SEARCH FOR THE ANSWERS..."
-            size="100"
-            maxLength="20"
-            value={search}
-            onChange={this.handleChange}
-          />
-        </div>
-        <div>
-          {renderQuestions.slice(0, showing).map((q) => (
-            <div key={q.question_id} className="questionListQuestion">
-              <Question
-                question={q}
-                qId={q.question_id}
-                productDetails={productDetails}
-              />
-            </div>
-          ))}
         </div>
         <div>
           <span>
             <button
-              className="questionButton"
+              className="expandList"
               type="button"
               onClick={() => this.handleClick()}
             >
