@@ -3,15 +3,14 @@ import React from 'react';
 import RightArrow from './DefaultView/rightArrow.jsx';
 import LeftArrow from './DefaultView/leftArrow.jsx';
 import DisplayExpanded from './DisplayExpanded.jsx';
-// import './DefaultView/DefaultView.scss';
 
 class ModalDisplay extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      photos: 'this.props.gallery',
-      currentIndex: 'this.props.currentIndex',
-      currentImage: 'this.props.currentImage',
+      photos: '',
+      currentIndex: '',
+      currentImage: '',
     };
     this.goToPreviousSlide = this.goToPreviousSlide.bind(this);
     this.goToNextSlide = this.goToNextSlide.bind(this);
