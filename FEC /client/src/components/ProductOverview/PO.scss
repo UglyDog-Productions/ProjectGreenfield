@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+.ProductOverview {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.leftContainer {
+  float: left;
+  height: 80%;
+}
+
+.rightContainer {
+  margin-left: 2%;
+  height: 80%;
+  width: 40%;
+}
+
+.ImageView {
+  float: left;
+}
+
+.StyleSelector {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  width: auto;
+}
+.prodcutDescription {
+  column-count: 2;
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.starReviews {
+  display: inline;
+}
+
+.dv-star-rating {
+  font-size: 20px;
+  margin-right: 20px;
+}
+.ratingAndReviews {
+  margin-top: 10px;
+  text-align: center;
+  display: inline-flex;
+}
+
+.linkToScroll {
+  font-size: 20px;
+}
+.share {
+  margin-right: 50px;
+  padding-right: 50px;
+}
+
+.displayImageModal {
+  cursor: cell;
+}
+
+.styles_closeButton__20ID4 {
+  background-color: green;
+}
+
+.styles_modal__gNwvD {
+  background-color: rgb(240, 216, 111);
+  border-radius: 20px;
+}

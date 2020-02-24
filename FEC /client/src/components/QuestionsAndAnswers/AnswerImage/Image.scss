@@ -1,0 +1,30 @@
+.images {
+  border: solid;
+  border-color: coral;
+  background-color: white;
+}
+
+// .imageBox {
+//   border: solid;
+//   background-color: coral;
+//   height: 100px;
+//   width: 100px;
+//   opacity: 100%;
+// }
+
+.anImage {
+  margin: 2.5px;
+  height: 95px;
+  width: 95px;
+}
+
+.bigImage {
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}

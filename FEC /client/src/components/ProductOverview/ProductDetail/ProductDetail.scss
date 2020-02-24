@@ -1,0 +1,28 @@
+$primary-color: black;
+
+.ProductDetail {
+  padding-top: 10px;
+  text-align: center;
+  padding-right: 30%;
+  color: black;
+  text-align: left;
+}
+.productCategory {
+  font-size: medium;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.productName {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.productPrice {
+  font-size: large;
+  color: rgb(172, 16, 16);
+}
+
+.linkToScroll {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}

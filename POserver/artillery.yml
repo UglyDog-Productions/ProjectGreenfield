@@ -1,0 +1,29 @@
+config:
+  target: 'http://localhost:3000'
+  http:
+    timeout: 2
+  phases:
+    - duration: 5
+      arrivalRate: 50
+      rampTo: 500
+    - duration: 5
+      arrivalRate: 500
+      rampTo: 1000
+    - duration: 10
+      arrivalRate: 1000
+    #   rampTo: 1000
+    # - duration: 10
+    #   arrivalRate: 1000
+  defaults:
+    headers:
+      x-my-service-auth: '987401838271002188298567'
+
+scenarios:
+  - flow:
+      # - get:
+      #     url: '/products/list'
+      # - log: '{{$randomNumber(1,10000)}}'
+      # - get:
+      #     url: '/products/{{$randomNumber(1,1000)}}'
+      - get:
+          url: '/products/{{$randomNumber(1,1000)}}/styles'

@@ -1,0 +1,44 @@
+.styleSelectorContainer {
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: auto;
+  width: auto;
+}
+
+.styleSelectorText {
+  display: flex;
+  float: center;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+}
+
+.CircleImage {
+  float: left;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  flex-direction: row;
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.CircleActive {
+  float: left;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 10px solid orange;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.smallImages {
+  display: block;
+  float: center;
+  width: 70%;
+  height: 50%;
+}

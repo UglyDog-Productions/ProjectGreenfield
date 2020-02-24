@@ -1,0 +1,51 @@
+.answerer {
+  margin-left: 0.5vw;
+}
+
+.answer {
+  margin: 1vw 0 0 0;
+  font-size: 1.25vw;
+  border: none;
+  color: #454442;
+  opacity: 90%;
+}
+
+.user {
+  margin: 1vw 0 0 0;
+  font-size: 1vw;
+  border: none;
+  color: #454442;
+  opacity: 90%;
+}
+
+.answerButton {
+  margin: 0.625vw 0.06vw 0.625vw 0;
+  font-size: 1vw;
+  height: auto;
+  width: auto;
+  border-radius: 0.125vw;
+  border: solid;
+  box-shadow: 1px 1px 0px 2px rgba (0, 0, 0, 0.3);
+  background: none;
+  cursor: pointer;
+}
+
+.answerLinkButton {
+  font-size: 1vw;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline;
+  margin: 0.625vw 0.06vw 0.625vw 0;
+  padding: 0;
+}
+
+.answerLinkButton:hover,
+.answerLinkButton:focus {
+  text-decoration: none;
+}
+
+.count {
+  margin: 0.25vw;
+}

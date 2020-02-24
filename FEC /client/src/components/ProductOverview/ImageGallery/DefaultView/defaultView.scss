@@ -1,0 +1,102 @@
+.DefaultView {
+  position: relative;
+  height: 700px;
+  width: 700px;
+
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.slideWrap {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.displayImage {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.arrow {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9f9f9;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform ease-in 0.1s;
+}
+
+.nextArrow {
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  z-index: 999;
+  color: #fff;
+}
+
+.backArrow {
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  z-index: 999;
+  color: #fff;
+}
+
+.fa-arrow-right:before,
+.fa-arrow-left:before {
+  color: orange;
+}
+
+.thumbnailImage {
+  height: 70px;
+  width: 70px;
+  border: 8px solid rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  cursor: pointer;
+  -webkit-background-clip: padding;
+  border-radius: 6px;
+}
+
+.selectThumbnail {
+  height: 80px;
+  width: 80px;
+  border: 8px solid orange;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-background-clip: padding;
+  border-radius: 6px;
+}
+
+.imageViewButton {
+  float: right;
+  margin: 40px;
+  cursor: pointer;
+}
+
+.fa-arrows-alt {
+  font-size: 50px;
+  color: orange;
+}
+
+.fa-arrow-up {
+  padding-top: 80px;
+  color: orange;
+  font-size: 50px;
+  margin-left: 26px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.fa-arrow-down {
+  cursor: pointer;
+  color: orange;
+  font-size: 50px;
+  margin-left: 26px;
+  position: absolute;
+}

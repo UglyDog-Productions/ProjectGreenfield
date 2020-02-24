@@ -1,0 +1,27 @@
+.icon {
+  position: absolute;
+  bottom: 30%;
+  right: 25px;
+  z-index: 999;
+  color: #fff;
+  color: black;
+  cursor: pointer;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+.fa-facebook-f:before {
+  color: rgb(43, 101, 194);
+  font-size: 50px;
+}
+
+.fa-twitter:before {
+  color: blue;
+  font-size: 50px;
+}
+
+.fa-pinterest:before {
+  color: red;
+  font-size: 50px;
+}

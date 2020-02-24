@@ -1,0 +1,32 @@
+.question {
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: black;
+}
+
+.helpfulQ {
+  font-size: 1vw;
+  color: grey;
+  float: right;
+}
+
+.questionLinkButton {
+  font-size: 1vw;
+  color: grey;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline;
+  margin: 0.625vw 0.06vw 0.625vw 0;
+  padding: 0;
+}
+
+.questionLinkButton:hover,
+.questionLinkButton:focus {
+  text-decoration: none;
+}
+
+.count {
+  margin: 0.25vw;
+}

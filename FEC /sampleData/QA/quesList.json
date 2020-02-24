@@ -1,0 +1,130 @@
+{
+  "product_id": "5",
+  "results": [
+    {
+      "question_id": 36,
+      "question_body": "What fabric is the top made of?",
+      "question_date": "2018-06-17T00:00:00.000Z",
+      "asker_name": "funnygirl",
+      "question_helpfulness": 97,
+      "reported": 0,
+      "answers": [
+        {
+          "id": 28,
+          "body": "Suede",
+          "date": "2018-01-17T00:00:00.000Z",
+          "answerer_name": "sillyguy",
+          "helpfulness": 3,
+          "photos": []
+        },
+        {
+          "id": 124882,
+          "body": "...",
+          "date": "2019-12-18T00:00:00.000Z",
+          "answerer_name": "eve",
+          "helpfulness": 0,
+          "photos": []
+        },
+        {
+          "id": 124883,
+          "body": "cotton",
+          "date": "2019-12-18T00:00:00.000Z",
+          "answerer_name": "alex",
+          "helpfulness": 0,
+          "photos": []
+        }
+      ]
+    },
+    {
+      "question_id": 38,
+      "question_body": "How long does it last?",
+      "question_date": "2019-06-28T00:00:00.000Z",
+      "asker_name": "funnygirl",
+      "question_helpfulness": 47,
+      "reported": 0,
+      "answers": [
+        {
+          "id": 78,
+          "body": "9 lives",
+          "date": "2019-11-12T00:00:00.000Z",
+          "answerer_name": "iluvdogz",
+          "helpfulness": 33,
+          "photos": [
+            "https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+          ]
+        },
+        {
+          "id": 124813,
+          "body": "i am a 20 year old singer/songwriter and it would mean the world to me if you checked out my youtube channel! ",
+          "date": "2019-12-02T00:00:00.000Z",
+          "answerer_name": "Buttface McGee Jr",
+          "helpfulness": 3,
+          "photos": []
+        },
+        {
+          "id": 124825,
+          "body": "y'all come back now",
+          "date": "2019-12-04T00:00:00.000Z",
+          "answerer_name": "Cowboy Dan",
+          "helpfulness": 0,
+          "photos": []
+        },
+        {
+          "id": 124827,
+          "body": "a loooooooooooong time",
+          "date": "2019-12-04T00:00:00.000Z",
+          "answerer_name": "Long Boi sr.",
+          "helpfulness": 4,
+          "photos": [
+            "https://image.shutterstock.com/image-photo/manipulated-image-very-long-dachshund-260nw-38764216.jpg",
+            " https://i.redd.it/vk84b5cpspz11.jpg"
+          ]
+        },
+        {
+          "id": 124838,
+          "body": "Forever and ever",
+          "date": "2019-12-13T00:00:00.000Z",
+          "answerer_name": "Bentley",
+          "helpfulness": 0,
+          "photos": []
+        }
+      ]
+    },
+    {
+      "question_id": 35455,
+      "question_body": "Is this a hat",
+      "question_date": "2019-11-30T00:00:00.000Z",
+      "asker_name": "Alex",
+      "question_helpfulness": 27,
+      "reported": 0,
+      "answers": [
+        {
+          "id": 124795,
+          "body": "no it's shoes",
+          "date": "2019-12-02T00:00:00.000Z",
+          "answerer_name": "Alex",
+          "helpfulness": 3,
+          "photos": []
+        }
+      ]
+    },
+    {
+      "question_id": 35,
+      "question_body": "Where is this product made?",
+      "question_date": "2018-07-06T00:00:00.000Z",
+      "asker_name": "bballfan",
+      "question_helpfulness": 20,
+      "reported": 0,
+      "answers": [
+        {
+          "id": 27,
+          "body": "Canada",
+          "date": "2018-08-06T00:00:00.000Z",
+          "answerer_name": "footballfan",
+          "helpfulness": 11,
+          "photos": []
+        }
+      ]
+    }
+  ]
+}

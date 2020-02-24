@@ -1,0 +1,24 @@
+.productDescription {
+  font-size: larger;
+  color: black;
+}
+.productSlogan {
+  font-size: xx-large;
+  padding: 5px;
+}
+
+.rightcontainer {
+  text-align: center;
+}
+.leftcontainer {
+  display: inline-block;
+  text-align: left;
+  padding-right: 50px;
+  border-right: 2px solid black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+}

@@ -1,0 +1,1 @@
+// models: also a kind of middleware between your controller and the database. You can define a schema and do some validation before writing to the database. For example, you can use an ORM like Mongoose which comes with great features and methods to use in the schema itself

@@ -1,0 +1,59 @@
+.header {
+  float: right;
+  width: 200px;
+  height: 120px;
+}
+
+.header img {
+  height: 100%;
+  width: auto;
+  border-radius: 20px;
+}
+
+.headers {
+  width: 100%;
+  overflow: hidden;
+  background-color: #e9e9e9;
+  border-radius: 20px;
+}
+
+.searchfield {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  float: left;
+  height: 20px;
+  width: 60px;
+  display: contents;
+}
+
+.logo {
+  float: right;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #14c6cc;
+  padding-left: 300px;
+}
+
+.fa-search {
+  font-size: 30px;
+  margin: 10px;
+  background-color: inherit;
+  color: black;
+  border: none;
+  outline: none;
+}
+
+.form {
+  margin-left: 30px;
+}
+
+input {
+  font-size: 25px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #000000;
+}

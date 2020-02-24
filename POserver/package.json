@@ -1,0 +1,29 @@
+{
+  "name": "poserver",
+  "version": "1.0.0",
+  "description": "ProductOverviewServer",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js",
+    "test": "test",
+    "artillery": "artillery run artillery.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coloradorca/POserver.git"
+  },
+  "author": "RobGonzalezPita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coloradorca/POserver/issues"
+  },
+  "homepage": "https://github.com/coloradorca/POserver#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "newrelic": "^6.4.1",
+    "pg": "^7.18.1"
+  }
+}
