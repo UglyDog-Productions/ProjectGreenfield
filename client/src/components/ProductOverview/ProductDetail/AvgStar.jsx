@@ -29,12 +29,6 @@ class AverageStar extends React.Component {
     this.getAverage();
   }
 
-  // componentDidUpdate(prevProps) {
-  //   if (this.props.data !== prevProps.data) {
-  //     this.getAverage();
-  //   }
-  // }
-
   getAverage() {
     const { data } = this.props;
     const arr = [];
@@ -47,7 +41,6 @@ class AverageStar extends React.Component {
       return sum;
     });
     const average = Math.round(sum / arr.length);
-    // const average = Math.round((sum / arr.length) * 2) / 2;
     this.setState({
       averageRating: average,
     });

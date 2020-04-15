@@ -4,7 +4,6 @@ import ModalDisplay from '../ModalDisplay.jsx';
 import DisplayImage from '../displayImage/displayImage.jsx';
 
 import './imageView.scss';
-// import '../DefaultView/DefaultView.scss';
 
 class ImageView extends React.Component {
   constructor(props) {

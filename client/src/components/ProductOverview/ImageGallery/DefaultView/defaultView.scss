@@ -2,8 +2,7 @@
   position: relative;
   height: 700px;
   width: 700px;
-  // height: 100%;
-  // width: 100%;
+
   margin: 0 auto;
   overflow: hidden;
   white-space: nowrap;
@@ -16,11 +15,9 @@
 }
 
 .displayImage {
-  // border: 1px solid black;
   display: inline-block;
   height: 100%;
   width: 100%;
-  // cursor: zoom-in;
 }
 
 .arrow {
